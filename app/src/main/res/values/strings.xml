@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FormuMath</string>
+    <string name="theme">Tema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="language">Lenguaje</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_english">Inglés</string>
+    <string name="share">Compartir</string>
+    <string name="info">Información</string>
+    <string name="acces_topic_detail">Presiona aqui para ver los detalles del tema</string>
+    <string name="check_out_app">📐 FormuMath: ¡Matemáticas al alcance de tu mano! 🚀
+Descubre, aprende y domina fórmulas matemáticas con facilidad. Desde álgebra hasta cálculo, FormuMath te acompaña en cada paso. 🧠💡
+Búsqueda rápida 🔍 | Explicaciones claras 📚 | Ejercicios prácticos 🏋️‍♀️
+¡Descarga ahora y potencia tu cerebro matemático! 🌟📱</string>
+
+</resources>

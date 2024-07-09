@@ -1,0 +1,33 @@
+
+<resources>
+    <style name="CustomRoundedImageView">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="CenteredCardContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="RoundedShapeAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">32dp</item>
+    </style>
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textColor">@android:color/holo_orange_dark</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="searchIcon">@null</item>
+        <item name="searchHintIcon">@null</item>
+        <item name="android:textSize">16sp</item>
+        <item name="closeIcon">@null</item>
+        <item name="queryBackground">@null</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:searchIcon">@drawable/ic_search_custom</item>
+    </style>
+
+</resources>

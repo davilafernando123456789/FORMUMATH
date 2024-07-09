@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/white" />
+    <foreground android:drawable="@drawable/math_logo" />
+    <!-- El atributo monochrome es opcional y se utiliza para temas en escala de grises o similares -->
+
+</adaptive-icon>

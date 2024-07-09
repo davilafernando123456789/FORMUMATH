@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.mendoza.ana.poketinder.ui.view.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_topicListFragment"
+            app:destination="@id/navigation_topic_list" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_topic_list"
+        android:name="com.mendoza.ana.poketinder.ui.view.TopicListFragment"
+        android:label="Lista de Temas"
+        tools:layout="@layout/fragment_topic_list">
+        <action
+            android:id="@+id/action_topicListFragment_to_topicDetailFragment"
+            app:destination="@id/navigation_topic_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_topic_detail"
+        android:name="com.mendoza.ana.poketinder.ui.view.TopicDetailFragment"
+        android:label="Detalle del Tema"
+        tools:layout="@layout/fragment_topic_detail" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.mendoza.ana.poketinder.ui.view.FavoriteFragment"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/action_favoriteFragment_to_topicListFragment"
+            app:destination="@id/navigation_topic_list" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.mendoza.ana.poketinder.ui.view.SettingsFragment"
+        android:label="Configuración"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settingsFragment_to_informationFragment"
+            app:destination="@id/navigation_information" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_information"
+        android:name="com.mendoza.ana.poketinder.ui.view.InformationFragment"
+        android:label="Información"
+        tools:layout="@layout/fragment_information" />
+</navigation>
